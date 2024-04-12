@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>GyeongJun Son Portfolio</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+
+<body>
+    <nav>
+        <h1>GYEONGJUN SON</h1>
+        <ul class="navigation">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <button class="burger-menu" id="burger-menu">
+          <ion-icon class="bars" name="menu-outline"></ion-icon>
+        </button>
+    </nav>
+
+    <section class="hero" id="about">
+        <img class="profile-pic" src="images/profile.jpg" alt="Profile pic" loading="lazy">
+        <div class="bio animate__animated animate__shakeX">
+            <h2 class="bio-title">About Me</h2>
+            <p class="bio-text"> Welcome to the portfolio page of GyeongJun Son, a dedicated and innovative Computer Science student at the University of Rochester, anticipated to graduate in May 2024.</p>
+        </div>
+    </section>
+
+    <section class="more-about">
+        <h2>More About Me</h2>
+        <p>With a solid GPA and multiple Dean's List honors, my academic journey is marked by a passion for learning and excellence. I have enriched my education with courses in Data Structures, Algorithms, Artificial Intelligence, and Web Development, alongside a Coursera certification in Agile Software Development.</p>
+        <p>My technical proficiency spans Java, Python, C, and several other languages and tools, enabling me to craft projects like the strategic Othello game, the nutritional website Calochester, and a weather forecast app. These projects highlight my ability to apply theoretical knowledge to practical solutions.</p>
+        <p>In the professional sphere, I've contributed as a Mobile App Development Teaching Assistant and a Research Assistant at the University of Rochester, where I've honed my skills in mentoring and research. Additionally, my experience as an event staff worker in Tokyo has equipped me with teamwork and problem-solving skills.</p>
+        <p>Fluent in both Japanese and English, I navigate global environments effortlessly. This portfolio is a testament to my journey in technology, showcasing projects, skills, and experiences that underline my readiness to contribute to the tech industry.</p>
+    </section>
+
+    <section class="skills" id="skills">
+        <h2 class="skill-header">Programming Languages</h2>
+
+        <div class="skills-wrapper">
+            <div class="first-set animate__animated animate__pulse">
+                <img src="images/icons8-java.svg" alt="" loading="lazy" class="icon-card"/>
+                <img src="images/icons8-python.svg" alt="" loading="lazy" class="icon-card"/>
+                <img src="images/icons8-c-programming.svg" alt="" loading="lazy" class="icon-card"/>
+                <img src="images/icons8-kotlin.svg" alt="" loading="lazy" class="icon icon-card"/>
+            </div>
+
+            <div class="second-set animate__animated animate__pulse">
+                <img src="images/icons8-html-5.svg" alt="" loading="lazy" class="icon-card"/>
+                <img src="images/icons8-css.svg" alt="" loading="lazy" class="icon-card"/>
+                <img src="images/icons8-javascript.svg" alt="" loading="lazy" class="icon-card"/>
+                <img src="images/icons8-mysql-logo.svg" alt="" loading="lazy" class="icon-card"/>
+            </div>
+        </div>
+
+        <h2 class="skill-header">Tools & Methodologies:</h2>
+        <div class="skills-wrapper">
+            <div class="first-set animate__animated animate__pulse">
+                <img src="images/icons8-git.svg" alt="" loading="lazy" class="icon-card"/>
+                <img src="images/icons8-flask.svg" alt="" loading="lazy" class="icon-card"/>
+                <img src="images/icons8-android-studio.svg" alt="" loading="lazy" class="icon-card"/>
+            </div>
+
+            <div class="second-set animate__animated animate__pulse">
+                <img src="images/webdev.png" alt="" loading="lazy" class="icon-card"/>
+                <img src="images/appdev.png" alt="" loading="lazy" class="icon-card"/>
+                <img src="images/agile.png" alt="" loading="lazy" class="icon-card"/>
+                <img src="images/oop.png" alt="" loading="lazy" class="icon-card"/>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2 class="projects-title">Some of my Projects</h2>
+        <div class="projects-container">
+          <div class="project-container project-card">
+            <img src="images/othello project.png" alt="othello project" loading="lazy" class="project-pic"/>
+            <h3 class="project-title">Othello</h3>
+            <p class="project-details">
+                This project is an implementation of the classic Reversi game (also known as Othello) in Java, featuring a graphical user interface (GUI) and an intelligent computer opponent. Players can enjoy the game against an AI that uses heuristic analysis and the minimax algorithm to determine its moves, providing varying levels of challenge.
+            </p>
+            <a href="https://github.com/gson0824/Reversi" target="_blank" class="project-link">Check it Out</a>
+          </div>
+        </div>
+    </section>
+
+
+    <section class="contact" id="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-form-container">
+            <div class="contact-form">
+                <p>Phone Number: +1 562-374-3342</p>
+                <p>Email Address: gyeongjun0824@gmail.com</p>
+            </div>
+    </section>
+
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
